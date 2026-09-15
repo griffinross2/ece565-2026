@@ -1,5 +1,5 @@
-## ECE 565 Programming Assignment Part 1 Fall 2025
-### Professor T.N. Vijaykumar
+## ECE 565 Programming Assignment Part 1 Fall 2026
+### Professor Jinghan Sun
 
 1. **Introduction**
     
@@ -79,13 +79,13 @@ For this assignment, we will use the ECE565-C86 and the ECE565-ARM build configu
     
 1. **Running gem5: Benchmarks**
     
-    For the programming assignment, you’ll need to run benchmarks from the SPEC CPU benchmark suite. Runscripts for running select SPEC2006 CPU benchmarks are provided for you in `<gem5-root>/configs/spec/`. (If you don't see this directory, please pull from the git repo.) Specifically, the following six benchmarks have been tested on ECN machines: `sjeng`, `leslie3d`, `lbm`, `omnetpp`, `milc`, and `namd`. The same runscript can be used to select and run any benchmark of your choice as follows:
+    For the programming assignment, you’ll need to run benchmarks from the SPEC CPU benchmark suite. Runscripts for running select SPEC2006 CPU benchmarks are provided for you in `<gem5-root>/configs/spec/`. (If you don't see this directory, please pull from the git repo.) Specifically, the following five benchmarks have been tested on ECN machines: `sjeng`, `lbm`, `omnetpp`, `milc`, and `namd`. The same runscript can be used to select and run any benchmark of your choice as follows:
     
     ```console
     ./build/ECE565-X86/gem5.opt configs/spec/spec_se.py -b <benchmark-name> --maxinsts=10000000
     ```
 
-    where `<benchmark-name>` must be replaced with any one of the six benchmark names listed above. You should use all six benchmarks for this homework. 
+    where `<benchmark-name>` must be replaced with any one of the five benchmark names listed above. You should use all five benchmarks for this homework. 
     In the spec_se.py script, we import the Options module from configs/common/Options.py. This allows us to pass arguments that control various simulation parameters, ranging from the maximum number of instructions to be simulated, the CPU model, and cache type, to the DRAM size, and so on. For this assignment, we have set the --maxinsts limit to 10M instructions. It is worth noting that in contemporary publications, the standard typically hovers around 1B instructions.
    
 1. **Submission instructions**
