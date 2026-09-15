@@ -1,4 +1,4 @@
-## ECE 565 Programming Assignment Part 3 Fall 2025
+## ECE 565 Programming Assignment Part 3 Fall 2026
 We are moving to the ARM ISA for these tasks. You will have to rebuild gem5 to use the ARM target ISA.
 
 For this assignment you should focus on the *MinorCPU* Model located in /src/cpu/minor. The *MinorCPU* currently models a simple pipelined.  (Hint: Use the -h flag with your Python script to find out how to specify the CPU model you use.)
