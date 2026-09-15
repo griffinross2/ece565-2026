@@ -1,5 +1,5 @@
-## ECE 565 Programming Assignment part 2 Fall 2025
-### Professor T.N. Vijaykumar
+## ECE 565 Programming Assignment part 2 Fall 2026
+### Professor Jinghan Sun
 
 1. **Assignment**
     
